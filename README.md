@@ -1,7 +1,7 @@
 # Line-Graph-View-Swift
 A customizable line graph view written in swift!
 
-Note: there are known issues with the customizability. Certain parameters simply isn't implemented yet. Stay tuned for updates.
+Note: there are known issues with the customizability. Certain parameters simply aren't implemented yet. Stay tuned for updates.
 
 HOW TO INSTALL:
 
