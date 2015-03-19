@@ -1,7 +1,7 @@
 # Line-Graph-View-Swift
 A customizable line graph view written in swift!
 
-Note: there are known issues with the customizability. Certain parameters simply aren't implemented yet. Stay tuned for updates.
+<img src="https://raw.githubusercontent.com/mmarkman/Line-Graph-View-Swift/master/graph-screenshot.png" />
 
 HOW TO INSTALL:
 
@@ -11,5 +11,7 @@ HOW TO INSTALL:
 4) Turn off example data <br>
 5) Connect referencing outlet to graph <br>
 6) Use myGraph.addData([String], [Float]) to add meaningful data <br>
+
+Note: there are known issues with the customizability. Certain parameters simply aren't implemented yet. Stay tuned for updates.
 
 ENJOY!
