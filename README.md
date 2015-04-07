@@ -1,7 +1,6 @@
 # Line-Graph-View-Swift
-A customizable line graph view written in swift!
-
 <img src="https://raw.githubusercontent.com/mmarkman/Line-Graph-View-Swift/master/graph-screenshot.png" />
+A customizable line graph view written in swift!
 
 HOW TO INSTALL:
 
