@@ -253,9 +253,8 @@ import UIKit
     }
     
     func labelOnI(i: Int, total: Int, width:CGFloat) -> Bool {
-        var width = self.frame.width
+    
         var labelWidth = CGFloat(50)
-        
         
         let numLabels = width / labelWidth
         if numLabels == 0 {
