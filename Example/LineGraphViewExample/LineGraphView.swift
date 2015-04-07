@@ -130,7 +130,7 @@ import UIKit
             }
             
             /* LABELS FOR Y-VALUES */
-            if showLabels == true && labelOnI(i, total: keys.count) {
+            if showLabels == true && labelOnI(i, total: keys.count, width: width) {
                 var labelx = x - 25
                 var labely = y - 25
                 var labelwidth = CGFloat(50)
@@ -145,7 +145,7 @@ import UIKit
                 addSubview(valueLabel)
             }
             /* LABELS FOR X-AXIS */
-            if showLabelsX == true && labelsDrawnX == false && labelOnI(i, total: keys.count) {
+            if showLabelsX == true && labelsDrawnX == false && labelOnI(i, total: keys.count, width: width) {
                 
                 var labelwidth = CGFloat(50)
                 var labelheight = CGFloat(16)
@@ -252,7 +252,7 @@ import UIKit
         
     }
     
-    func labelOnI(i: Int, total: Int) -> Bool {
+    func labelOnI(i: Int, total: Int, width:CGFloat) -> Bool {
         var width = self.frame.width
         var labelWidth = CGFloat(50)
         
